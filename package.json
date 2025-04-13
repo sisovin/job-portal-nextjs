@@ -1,0 +1,42 @@
+{
+  "name": "job-portal-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter frontend-lynx dev\" \"pnpm --filter frontend-web dev\"",
+    "dev:frontend-lynx": "pnpm --filter frontend-lynx dev",
+    "dev:frontend-web": "pnpm --filter frontend-web dev",
+    "build": "pnpm --filter frontend-lynx build && pnpm --filter frontend-web build",
+    "build:frontend-lynx": "pnpm --filter frontend-lynx build",
+    "build:frontend-web": "pnpm --filter frontend-web build",
+    "test": "pnpm --recursive test",
+    "lint": "pnpm --recursive lint",
+    "format": "pnpm --recursive format",
+    "generate:env": "node scripts/generateEnv.js",
+    "make:admin": "node scripts/makeAdmin.js",
+    "db:seed": "node prisma/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1",
+  "workspaces": [
+    "frontend-web",
+    "backend",
+    "frontend-lynx"
+  ],
+  "pnpm": {
+    "overrides": {
+      "glob": "^10.3.10",
+      "inflight": "npm:@zkochan/inflight@1.0.7"
+    },
+    "ignoredBuiltDependencies": [
+      "@nestjs/core",
+      "@swc/core"
+    ]
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
