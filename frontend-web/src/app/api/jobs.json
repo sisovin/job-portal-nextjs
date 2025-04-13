@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "title": "Software Engineer",
+    "company": "Tech Corp",
+    "location": "New York, NY",
+    "description": "We are looking for a skilled software engineer to join our team.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "3+ years of experience in software development",
+      "Proficiency in JavaScript, React, and Node.js"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Product Manager",
+    "company": "Innovate Ltd",
+    "location": "San Francisco, CA",
+    "description": "We are seeking a product manager to lead our new project.",
+    "requirements": [
+      "Bachelor's degree in Business or related field",
+      "5+ years of experience in product management",
+      "Strong leadership and communication skills"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "UX Designer",
+    "company": "Design Studio",
+    "location": "Austin, TX",
+    "description": "We need a creative UX designer to improve our user experience.",
+    "requirements": [
+      "Bachelor's degree in Design or related field",
+      "3+ years of experience in UX design",
+      "Proficiency in design tools like Sketch and Figma"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Frontend Developer",
+    "company": "Remote Inc",
+    "location": "Remote",
+    "description": "We are looking for a frontend developer to work on our web applications.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "2+ years of experience in frontend development",
+      "Proficiency in HTML, CSS, and JavaScript"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Data Scientist",
+    "company": "DataWorks",
+    "location": "Remote",
+    "description": "We are seeking a data scientist to analyze and interpret complex data.",
+    "requirements": [
+      "Bachelor's degree in Data Science or related field",
+      "3+ years of experience in data analysis",
+      "Proficiency in Python and machine learning algorithms"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Backend Developer",
+    "company": "Tech Solutions",
+    "location": "Chicago, IL",
+    "description": "We need a backend developer to build and maintain our server-side applications.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "3+ years of experience in backend development",
+      "Proficiency in Node.js and database management"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Marketing Specialist",
+    "company": "MarketPro",
+    "location": "Boston, MA",
+    "description": "We are looking for a marketing specialist to promote our products.",
+    "requirements": [
+      "Bachelor's degree in Marketing or related field",
+      "2+ years of experience in marketing",
+      "Strong analytical and communication skills"
+    ]
+  }
+]
